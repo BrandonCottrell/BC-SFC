@@ -1,0 +1,78 @@
+$primary: #7692ff;
+$secondary: #091540;
+$link-color: #091540;
+
+
+@import "bootstrap";
+
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+
+.btn.btn-primary {
+    background-color: #7692ff;
+    border-color: #7692ff;
+   
+}
+
+.container {
+    text-align: center;
+}
+
+.topicHeader {
+    padding-top: 3em;
+    padding-bottom: 2em;
+}
+
+#userImg {
+    position: relative; width: 20em; height: 20em; overflow: hidden; border-radius: 50%; object-fit: cover;
+
+}
+
+#userContainer {
+    padding-top: 3em;
+}
+
+div.modal-body {
+    text-align: left;
+}
+
+
+.search-result {
+    padding:20px 0;
+	border-bottom:#eee 1px solid;
+}
+.search-result h4 {
+	margin:0;
+	line-height:20px;
+}
+.search-result p {
+	font-size:12px;
+	margin:0; padding:0;
+}
+.search-result img {
+	float:left; 
+	margin-right:10px;
+	margin-top:6px;
+}
+
+.jumbotron {
+    background-image: url(https://cdn.sanity.io/images/6sugrgl1/production/9e5240303b393090493918509cf6aab4cda1c465-1440x961.jpg?rect=0,162,1440,639&w=1988&h=882&fit=crop);
+    background-size: cover;
+    color: #091540;
+}
+
+.jumboText {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#addButton {
+    align-items: right;
+}
+
+// https://coolors.co/232020-553739-955e42-9c914f-748e54
+// https://coolors.co/091540-7692ff-abd2fa-3d518c-1b2cc1
